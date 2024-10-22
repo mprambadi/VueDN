@@ -1,8 +1,8 @@
 ---
 home: true
-title: Cellcast Video Page
-tagline: Cellcast Video Page
-heroText: Cellcast Support Page
-heroImage: hero.png
+title: Cellcast Support
+tagline: Cellcast Support
+# heroText: Cellcast Support
+heroImage: logo.svg
 
 ---
