@@ -7,8 +7,3 @@ lastUpdated: false
 
 All pages here contain how to video
 
-::: details
-
-
-
-:::

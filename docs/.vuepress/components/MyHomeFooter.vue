@@ -2,7 +2,7 @@
   <div class="push"></div>
   <div class="footer center">
     <div>
-      <a href="https://app.cellcast.com " target="_blank">GitHub Repository</a>
+      <a href="https://app.cellcast.com " target="_blank">Cellcast</a>
     </div>
   </div>
 </template>

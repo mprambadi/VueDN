@@ -5,7 +5,7 @@ import { getDirname, path } from "@vuepress/utils";
 import { glob } from "glob";
 
 let videoFile = glob
-  .sync("docs/video/**/*.md")
+  .sync("docs/videos/**/*.md")
   .map((f) => f.replace("docs", "").replace("index.md", ""));
 
 import { description } from "../../package.json";
@@ -17,7 +17,7 @@ export default defineUserConfig({
   // Global title in HTML <head>.
   // If page has title (in frontmatter) or h1 then: <page title/h1> | <global title>
   // e.g <title>Vuepress-DecapCMS-Netlify | VueDN</title>
-  title: "Cellcast Support",
+  title: "Support",
   // Global description in in HTML <head>.
   // If page has description (in frontmatter) then: <global description is replaced by <page description>
   // <meta name="description" content="...">
@@ -33,7 +33,7 @@ export default defineUserConfig({
 
   // theme and its config
   theme: defaultTheme({
-    logo: "vue.png",
+    logo: "logo.svg",
     notFound: ["There's nothing here. If you're looking for DecapCMS, manually enter `/admin` to the root site path to navigate directly to it."],
     navbar: [
       {
